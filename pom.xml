@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.thehecklers</groupId>
+    <artifactId>reactive-spring-deepdive</artifactId>
+    <version>1.0.0.BUILD-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>coffee-service-redis</module>
+        <module>coffee-service-couch</module>
+        <module>coffee-service-mongo</module>
+        <module>coffee-service-cass</module>
+        <module>coffee-service-kotlin</module>
+        <module>coffee-client</module>
+    </modules>
+</project>

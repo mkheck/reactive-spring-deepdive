@@ -1,0 +1,29 @@
+= Reactive Spring Deep Dive: Building & Testing Reactive Cloud-native Java Microservices
+
+== Maintainer
+
+* Mark Heckler
+* mailto:mark@thehecklers.org[mark@thehecklers.org]
+* https://twitter.com/MkHeck[@mkheck on Twitter]
+
+== Purpose
+
+This repo accompanies my three-hour deep dive session titled "
+Reactive Spring Deep Dive: Building & Testing Reactive Cloud-native Java Microservices".
+
+== Notes
+
+In this extended session, I discuss and demonstrate by live coding the following material/topics:
+
+* Build reactive data mechanisms that store & retrieve data from four different NoSQL databases, comparing & contrasting them
+* Build a fully reactive Java microservice that extends our reactive data access up through internal and external APIs
+* Discuss the challenges associated with testing reactive applications and show how to do so properly
+* Demonstrate how to debug reactive applications when things go off the rails
+* Replace Spring MVC-style route definitions with *functional* reactive route definitions
+* Build in (reactive) Spring Security to secure our critical services and data
+* Create a reactive client, with security of course
+* Build a reactive microservice using Kotlin
+
+== Related presentation
+
+https://speakerdeck.com/mkheck/reactive-spring-deep-dive-building-and-testing-reactive-cloud-native-java-microservices[Reactive Spring Deep Dive presentation]
